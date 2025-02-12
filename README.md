@@ -2,7 +2,7 @@
 
 Add chart repository
 ```shell
-$ helm repo add beastob https://beastob.github.io/helm-charts/
+$ helm repo add bassclarinetl2 https://bassclarinetl2.github.io/helm-charts/
 ```
 
 ## Install Charts
@@ -14,5 +14,5 @@ $ helm repo add beastob https://beastob.github.io/helm-charts/
 ```shell
 $ helm package foldingathome
 $ mv foldingathome-*.tgz docs
-$ helm repo index docs --url https://beastob.github.io/helm-charts/
+$ helm repo index docs --url https://bassclarinetl2.github.io/helm-charts/
 ```
